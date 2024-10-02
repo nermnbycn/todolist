@@ -30,7 +30,7 @@ if (isset($_SESSION['message'])) {
 ?>
   <div class="container" id="container">
       <div class="sign-up">
-        <form method="post" action="kayit.php">
+        <form method="post" action="register.php">
           <h1>Create Account</h1>
           <input type="text" autocomplete="off" placeholder="Name" name="name"  />
           <input type="email" autocomplete="off" placeholder="Email" name="email" />
